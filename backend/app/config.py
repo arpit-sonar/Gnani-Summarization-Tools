@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     GNANI_API_KEY: str
     GNANI_BASE_URL: str = "https://api.vachana.ai"
     GEMINI_API_KEY: str
-    GEMINI_MODEL: str = "gemini-2.5-flash"
+    GEMINI_MODEL: str = "gemini-3.6-flash"
     CORS_ORIGINS: str = "http://localhost:3000"
     MAX_UPLOAD_BYTES: int = 100 * 1024 * 1024  
     POLL_INTERVAL_SECONDS: int = 12
