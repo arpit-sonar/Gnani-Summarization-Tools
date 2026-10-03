@@ -3,3 +3,7 @@
 .env*.local
 .env
 .env*.local
+frontend/.env.local
+frontend/.next
+frontend/node_modules
+
