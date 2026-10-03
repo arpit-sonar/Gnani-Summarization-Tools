@@ -7,3 +7,6 @@ frontend/.env.local
 frontend/.next
 frontend/node_modules
 
+__pycache__/
+*.pyc
+.venv/
