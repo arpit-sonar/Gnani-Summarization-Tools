@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from .config import settings
 from .routers import recordings
 
-app = FastAPI(title="Audio Notes API", version="1.0.0")
+app = FastAPI(title="Gnani Summarization Tools API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
